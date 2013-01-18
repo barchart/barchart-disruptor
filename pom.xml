@@ -3,9 +3,8 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>disruptor</groupId>
-	<artifactId>disruptor</artifactId>
-
+	<groupId>com.barchart.disruptor</groupId>
+	<artifactId>barchart-disruptor</artifactId>
 	<version>0.0.0-SNAPSHOT</version>
 
 	<dependencies>
