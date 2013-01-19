@@ -19,8 +19,17 @@ import org.junit.Assert;
 
 public abstract class AbstractPerfTestQueueVsDisruptor
 {
-    public static final int RUNS = 20;
 
+    // barchart : reduce 20 -> 3 
+    public static final int RUNS = 3; // 20
+
+    static {
+
+        // barchart : compare against queues
+        System.setProperty("com.lmax.runQueueTests", "true");
+
+    }
+    
     protected void testImplementations()
         throws Exception
     {
